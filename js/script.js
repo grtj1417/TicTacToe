@@ -208,5 +208,7 @@ function handleEvent(row_idx, col_idx) {
 
     // 換回合
     CURRENTTURN = CURRENTTURN == 1 ? 2 : 1;
+    const turnMessage = document.querySelector(".turn-message");
+    turnMessage.textContent = `P${CURRENTTURN} 's turn`
     console.log(`現在回合 ${CURRENTTURN}`);
 }

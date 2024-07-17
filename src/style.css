@@ -77,7 +77,7 @@ body {
 }
 
 .main {
-    height: min-content;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     padding: 30px 30px 40px;
@@ -177,4 +177,5 @@ dialog::backdrop {
     text-align: center;
     padding: 3px 0;
     background-color: #c5cf9b;
+    position: fixed;
 }
